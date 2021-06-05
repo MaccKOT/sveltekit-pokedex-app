@@ -8,7 +8,7 @@ API: [https://pokeapi.co/](https://pokeapi.co/)
 
 [Tailwind CSS setup with SvelteKit](https://jsco.dev/blog/how-to-set-up-tailwindcss-with-svelte-kit)
 
-**[LIVE DEMO]()**
+**[LIVE DEMO](https://festive-morse-fe760f.netlify.app)**
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
