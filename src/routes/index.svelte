@@ -1,5 +1,5 @@
 <script>
-	import { pokemon } from '../stores/pokestore.js';
+	import { pokemon, fetchPokemon } from '../stores/pokestore.js';
 	import PokemonCard from '../components/pokemonCard.svelte';
 
 	let searchTerm = '';
@@ -17,6 +17,8 @@
 			filteredPokemons = [...$pokemon];
 		}
 	}
+
+	fetchPokemon();
 
 	//console.log($pokemon); //output data in store object
 </script>

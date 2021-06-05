@@ -20,8 +20,6 @@ export const fetchPokemon = async () => {
 	loaded = true;
 };
 
-fetchPokemon();
-
 export const getPokemonById = async (id) => {
 	if (pokemonDetails[id]) return pokemonDetails[id];
 
